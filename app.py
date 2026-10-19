@@ -14,7 +14,7 @@ def safe_search(query: str, max_results: int = 10) -> list[dict]:
     results = []
     needle = query.lower()
     for path in sorted(ROOT.rglob("*")):
-        if not path.is_file() or path.suffix not in ALLOWED or any(p in {".git", ".venv", "__pycache__"} for p in path.parts):
+        if not path.is_file() or path.suffix not in ALLOWED or any(p in {".git", ".venv", "__pycache__", "tests", ".github"} for p in path.parts):
             continue
         try:
             for line_no, line in enumerate(path.read_text(encoding="utf-8", errors="ignore").splitlines(), 1):
