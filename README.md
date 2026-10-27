@@ -21,3 +21,10 @@ Only selected text-file extensions are searched. Results are read-only and bound
 
 ## Stack
 Python, FastAPI, Pydantic, pytest. Free/open-source dependencies.
+
+## Explore more
+
+- [MCP Server Developer Toolkit](https://github.com/HardikPaghdar/mcp-server-developer-toolkit) — permission-aware AI client tools.
+- [Codebase RAG AI Developer](https://github.com/HardikPaghdar/codebase-rag-ai-developer) — local-first codebase retrieval.
+- [LLM Security & Prompt Injection Testing Lab](https://github.com/HardikPaghdar/llm-security-prompt-injection-lab) — tool permission regression tests.
+- [More projects on my portfolio](https://hardikpaghdar.netlify.app/).
